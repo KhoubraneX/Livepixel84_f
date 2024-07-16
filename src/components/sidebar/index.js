@@ -51,7 +51,7 @@ function Sidebar({ open, handleClick }) {
               color: "white",
               fontSize: "18px",
               cursor: "pointer",
-              backgroundColor: section === sec ? "#1F2942" : "initial",
+              backgroundColor: section === sec ? "grey" : "initial",
               padding: "10px 5px",
             }}
             onClick={() => setSection(sec)}
